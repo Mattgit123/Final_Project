@@ -2,7 +2,6 @@
 $(document).ready(function() {
 
 
-        // $("#theMessage").animate({left: '400px'}, "slow");
         $("#theMessage").animate({right: '200px'}, "slow");
         $("#theMessage").fadeOut(2000);
         $("#theMessage").fadeIn(2000);
