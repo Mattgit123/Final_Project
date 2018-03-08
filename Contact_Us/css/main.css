@@ -1,3 +1,13 @@
+/*
+Name: Matt Tounkara
+Date: 03/06/2018
+Description: This is my final project for Web Development 100 @ NYCDA in Philadelphia.
+             the aim of this project is to create an e-commerce shoe store website.
+             A website where you can shop for the finest and most elegant shoes you
+             could ever come across. A one stop shopping place for shoes. This is
+             the main.css for the Contact Us page. Its purpose is to apply style to
+             the index.html of Contact Us page. */
+
 body{
   font-style: italic;
   /* background-image:url('../img/background.jpg'); */
@@ -86,19 +96,20 @@ h1{
 
  .container{
 
-   width: 68em;
+   /* width: 68em; */
+   margin-left: 212px;
  }
 
  .row{
    clear: both; /* Forces new block context we can expect*/
    overflow: auto;  /* Forces the row to have a height.*/
   /* border: 2px solid blue; */
-  padding-left: 200px;
-  padding-right: 0px;
+  padding-left: -250px;
   border-radius: 10px;
+  text-align: center;
  }
 
- div.col-1-3 {
+ /* div.col-md-12 {
      margin: 5px;
      border: 1px solid #ccc;
      float: left;
@@ -106,11 +117,12 @@ h1{
      height: 300px;
      background-color: lightblue;
      position: relative;
-     margin-left: 220px;
+     margin-left: -150px;
+     text-align: center;
 
- }
+ } */
 
- div.col-1-3:hover {
+ div.col-md-12:hover {
      border: 5px solid #D0FA58;
      border-radius: 10px;
 
@@ -124,8 +136,8 @@ h1{
 @media all and (min-width: 480px){
   /* classes for a 4 columns grid. */
   /* Take up one of a possible 4 columns. */
-.col-1-3{
-  width: 33%;
+.col-md-12{
+  /* width: 33%; */
 }
 
 }
