@@ -26,10 +26,6 @@ body{
   background-color: white;
 }
 
-.theNav{
-
-
-}
 
 h1{
   text-align: center;
@@ -86,11 +82,6 @@ button{
 }
 
 /*Mobile Friendly  */
-@media all and (min-width: 480px){
-
-
-}
-
 *{
    box-sizing: border-box;
  }
@@ -104,24 +95,24 @@ button{
    clear: both; /* Forces new block context we can expect*/
    overflow: auto;  /* Forces the row to have a height.*/
   /* border: 2px solid blue; */
-  padding-left: 200px;
+  /* padding-left: 200px;
   padding-right: 0px;
-  border-radius: 10px;
+  border-radius: 10px; */
  }
 
- div.col-sm-3 {
+ div.col-1-3 {
      margin: 0px;
      border: 1px solid #ccc;
      float: left;
  }
 
- div.col-sm-3:hover {
+ div.col-1-3:hover {
      border: 5px solid #D0FA58;
      border-radius: 10px;
 
  }
 
- div.col-sm-3 img {
+ div.col-1-3 img {
      width: 100%;
      height: auto;
 
