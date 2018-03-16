@@ -36,8 +36,8 @@ Description: This is my final project for Web Development 100 @ NYCDA in Philade
 
   <form class="toSearch" action="https://www.footlocker.com/" method="Get">
       <input style="padding: 16px;
-      margin-right: -3px;" type="text" name="search" placeholder="Browse our site !">
-      <button style="padding: 16px;" type="submit" name="button">Search</button>
+      background-color: white;  border-radius: 0px;" type="text" name="search" placeholder="Browse our site !">
+      <button style="padding: 16px; background-color: white; border-radius: 0px;" type="submit" name="button">Search</button>
   </form>
 
 <h1 id="theMessage"><u>Your One Stop Place For The Finest And Most Elegant Shoes!!! </u></h1>
@@ -76,39 +76,35 @@ Description: This is my final project for Web Development 100 @ NYCDA in Philade
         <a href="../Videos/index.html"><li>Videos</li></a>
       </ul>
     </div>
-  </nav><br><br><br><br><br><br>
+    </nav>
+
+    <br><br><br><br><br>
 
   <!------------------------------------------------------------------------->
-  <div class="container">
+    <div class="container">
 
   <!--First row  -->
-  <div class="row" style="background-color: white;">
+    <div class="row" style="background-color: white;">
+     <div class="col-md-12">
+      <form class="theForm" action=" " method="post" onsubmit="return validateForm()">
 
-<form class="theForm" action=" " method="post" onsubmit="return validateForm()">
-
-
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-md-12">
-        <h1><u>Our Contact Info:</u> </h1>
+        <u><p id="theParagraph">Our Contact Info: </p></u>
         <p> <b><u>Address:</u> </b>1601 Cherry Street, Suite 100</p>
         <p> Philadelphia,PA 19102</p>
         <p> <b><u>Phone#:</u></b> 484-632-4233</p>
         <p> <b><u>Email:</u></b>mtounkara90@gmail.com</p><br><br>
-      </div>
 
-      <div class="col-md-12">
+
+
         <label for="theFirstName">First Name:</label>
         <input type="text" name="firstName" placeholder="Your First Name" required>
 
         <label for="theLastName">Last Name:<input type="text"
          name="lastName" placeholder="Your Last Name" required></label><br><br>
 
-      </div>
 
-      <div class="col-md-12">
+
+
         <label for="theEmail">Email:<input type="text"
           name="emailAddress" placeholder ="Your Email Address" required>
         </label><br><br>
@@ -120,9 +116,7 @@ Description: This is my final project for Web Development 100 @ NYCDA in Philade
         <label for="bestTimeToCall">BTTC:<input type="text"
             name="BTTC" placeholder="Best Time To call" required>
         </label><br><br>
-      </div>
 
-      <div class="col-md-12">
         <label for="Message">Message:
          <textarea name="theMessage" placeholder="Type your message"
          rows="5" cols="50">
@@ -130,18 +124,18 @@ Description: This is my final project for Web Development 100 @ NYCDA in Philade
          </label><br>
 
          <button type="submit" name="toSubmit" value="Submit">Submit</button>
-      </div>
 
 
+      </form>
     </div>
-
-     </div>
-
-    </div>
-
-  </form>
 
   </div>
+
+</div>
+
+
+
+
 
 
 
